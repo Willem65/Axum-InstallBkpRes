@@ -1,0 +1,6 @@
+Tijdens het restoren wordt geprobeerd postgresql stop uitgevoerd, maar dat lukt niet goed.
+Op dat moment wordt er een zeer groot log bestand aangemaakt genaamd /var/log/axum-engine.log ( honderde megaBytes Groot ????? )
+
+Uit eindelijk kill ik postgres
+
+En delete ik dat grote log bestand  met  rm /var/log/axum-engine.log*

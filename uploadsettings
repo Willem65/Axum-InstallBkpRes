@@ -1,0 +1,21 @@
+# # service uploadsettings
+# # {
+	# # port        = 7068
+    # # disable         = no
+    # # socket_type     = stream
+	# # protocol	 = ftp
+    # # wait            = no
+    # # user            = root
+    # # server          = /usr/sbin/sshd
+    # # server_args     = -i -u0 -4 -f /etc/ssh/sshd_config
+# # }
+
+
+service uploadsettings
+{
+  port        = 7068
+  socket_type = stream
+  wait        = no
+  user        = root
+  server      = /usr/bin/UploadSettings.sh
+}

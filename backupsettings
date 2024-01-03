@@ -1,0 +1,11 @@
+service backupsettings
+{
+  port        = 7066
+  socket_type = stream
+  wait        = yes
+  user        = root
+  server      = /usr/bin/BackupSettings.sh
+  # log_on_success = DURATION EXIT HOST PID USERID
+  # log_on_failure = ATTEMPT HOST USERID
+  # log_type = FILE /var/log/mybackupsettings.log
+}

@@ -1,0 +1,12 @@
+service restoresettings
+{
+  port        = 7067
+  socket_type = stream
+  wait        = yes
+  user        = root
+  server      = /usr/bin/RestoreSettings.sh
+  # server_args     = /usr/bin/ 
+  # log_on_success = DURATION EXIT HOST PID USERID
+  # log_on_failure = ATTEMPT HOST USERID
+  # log_type = FILE /var/log/myrestoresettings.log
+}
