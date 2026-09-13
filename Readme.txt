@@ -1,6 +1,3 @@
-For uploading you must start the upload.bat under administrator rights.
-
-Also you must have installed Putty on your pc.
-
-Dit is bedoeld om in het axum menu een backup  en restore mogelijkheid toe te voegen
-
+3. **Axum Menu Backup & Restore (Uploading):**
+   * Om bestanden te uploaden voor de backup/restore functionaliteit in het Axum menu, dient `upload.bat` te worden gestart met **Administrator-rechten** (*Als Administrator uitvoeren*).
+   * Zorg ervoor dat **PuTTY** vooraf is geïnstalleerd op de PC.
